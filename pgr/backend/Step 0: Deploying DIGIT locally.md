@@ -27,12 +27,14 @@ cd DIGIT
 cd pgr/backend/install/local
 ```
 
-## Spin up Digit 3.0
+## Start Digit 3.0
 
 ```bash
 docker compose up -d
 ```
 NOTE: Continue with the next steps only after Docker containers are fully up and healthy. If you face any issues, clean up volumes and retry. There may be port conflicts if any required ports are already in use on your local machine. Free up the conflicting ports and run the setup again in such cases.
+
+Visit [http://localhost:8095](http://localhost:8095)
 
 ## Cleanup commands at the end to free up memory
 
